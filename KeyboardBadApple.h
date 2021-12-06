@@ -1,6 +1,9 @@
-﻿#pragma once
+#pragma once
+#pragma comment(lib, "winmm.lib")
+#define NOMINMAX
 
 #include <iostream>
+#include <sstream>
 #include <cstdio>
 #include <atomic>
 #include <thread>
@@ -9,7 +12,9 @@
 #include <unordered_map>
 #include <cmath>
 
-#define PL_MPEG_IMPLEMENTATION
+#include <Windows.h>
+#include <mmsystem.h>
+
 #include "pl_mpeg.h"
 
 #include <CUESDK.h>
