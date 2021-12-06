@@ -1,6 +1,7 @@
+
 # Keyboard Bad Apple
 
-A little program that displays the famous Japanese music video Bad Apple onto any Corsair brand RGB keyboard.
+A little program that displays the famous Japanese music video Bad Apple onto any Corsair brand RGB keyboard. It can also play any color video.
 
 
 
@@ -19,4 +20,11 @@ why not lol
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Running
+
+```bash
+  KeyboardBadApple.exe <video_file_path>
+```
 
